@@ -130,3 +130,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local environments, caches, configuration, and OS metadata
+.venv/
+.ipynb_checkpoints/
+.ruff_cache/
+.env.*
+!.env.example
+.sesskey
+._*
+Thumbs.db
